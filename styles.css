@@ -8,9 +8,7 @@ li {
     list-style: none;
 }
 
-.container{
-    margin: auto;
-}
+
 .btn:focus,
 .btn:active {
     outline: none !important;
@@ -24,6 +22,12 @@ li {
 
 span {
     color: #4F46BA;
+}
+
+.spann {
+    color: black;
+    opacity: 0.5;
+    font-size: 16px;
 }
 
 .paragraph {
@@ -224,4 +228,73 @@ a:hover {
     background: var(--pallet-4-accent, #FF7F5C);
     padding: 1.5% 2%;
     color: white;
+}
+
+.submitdiv input {
+    border: none;
+    outline: none;
+    background: #EEF;
+    height: 100%;
+    padding: 2%;
+
+
+}
+
+.subscribebtn {
+    background: var(--pallet-4-primary, #3734A9);
+    color: white;
+    border-radius: 0;
+}
+
+.shootbtn {
+    background: var(--pallet-4-accent, #FF7F5C);
+    color: white;
+    border-radius: 0;
+}
+.shootcard{
+    text-align: center;
+    border-radius: 10px;
+border: 1px solid #CFCFCF;
+
+background: #FFF;
+}
+
+.shootcard img {
+    width: 45px;
+}
+
+.footer-img img{
+    margin-left: 2%;
+}
+
+.accordion {
+    border-radius: 18px;
+    margin: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+.accordion-button:focus,
+.accordion-button:active {
+    box-shadow: none;
+    border-color: rgba(0, 0, 0, .125);
+    color: black;
+}
+
+
+.accordion-button:not(.collapsed) {
+    color: black;
+    background-color: white;
+
+}
+
+.sspan {
+    color: #000;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 17px;
+    /* 100% */
 }
