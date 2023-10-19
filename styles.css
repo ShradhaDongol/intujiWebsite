@@ -14,9 +14,11 @@ body {
     font-size: 20px;
     font-weight: 700;
 }
-span{
-    color:#4F46BA ;
+
+span {
+    color: #4F46BA;
 }
+
 .paragraph {
     font-size: 20px;
     font-weight: 500;
@@ -35,9 +37,11 @@ span{
     line-height: 80px;
 
 }
+
 .title2 {
     font-size: 50px;
-    font-weight: 800;    line-height: 60px;
+    font-weight: 800;
+    line-height: 60px;
 
 }
 
@@ -119,6 +123,51 @@ a:hover {
 .service-card-info {
     text-align: center;
 }
-    .why-choose-us img{
+
+.why-choose-us img {
     width: 650px;
-    }
+    max-width: 100%;
+}
+
+.custom-ul li{
+    list-style: none;
+    list-style-image: url('Group\ 1551.svg');
+    padding: 1% 0px;
+}
+.imagee{
+    width: 45px !important;
+}
+
+.features{
+    background: #C9E7F2;
+}
+.feature-card img{
+ width: 45px;
+}
+.feature-card{
+    border-radius: 12px;
+    border: 1px solid #DBE4E9;
+    padding: 4% 2%;
+    background: #FFF;
+}
+.text-box{
+    width: 380px;
+    border-radius: 12px;
+    border: 1px solid #DBE4E9;
+    padding: 12% 5%;
+    background: #FFF;
+}
+
+.pspan{
+    color: #000;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+}
+.stat{
+    background: var(--pallet-4-primary, #3734A9);
+}
+.stat img{
+   
+    max-width: 100%;
+}
