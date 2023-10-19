@@ -4,15 +4,29 @@ body {
     font-family: 'Manrope', sans-serif !important;
 }
 
+.btn:focus,
+.btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
 .topic {
     font-size: 20px;
     font-weight: 700;
 }
-
+span{
+    color:#4F46BA ;
+}
 .paragraph {
     font-size: 20px;
     font-weight: 500;
     color: #64607D;
+}
+
+.paragraph2 {
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
 }
 
 .title {
@@ -21,7 +35,14 @@ body {
     line-height: 80px;
 
 }
-.box img{
+.title2 {
+    font-size: 50px;
+    font-weight: 800;    line-height: 60px;
+
+}
+
+
+.box img {
     width: 100%;
 }
 
@@ -63,7 +84,41 @@ a:hover {
 }
 
 .btn-round {
-    border-radius: 47px ;
+    border-radius: 47px;
     color: white;
     background: var(--pallet-4-primary, #3734A9);
 }
+
+.popup {
+    border-radius: 20px;
+    position: relative;
+    color: black;
+    background: #C4C4C4;
+}
+
+.popup img {
+    position: absolute;
+    top: -20px;
+}
+
+.business-partner {
+    background: #FAFBFF;
+}
+
+.service-card {
+    border-radius: 20px;
+    border: 1px solid #DBE4E9;
+    padding: 2%;
+    background: #FFF;
+}
+
+.service-card img {
+    width: 45px;
+}
+
+.service-card-info {
+    text-align: center;
+}
+    .why-choose-us img{
+    width: 650px;
+    }
